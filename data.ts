@@ -1,6 +1,6 @@
-import { Recipe, Category } from './types'
+import { IRecipe } from './types'
 
-export const recipes: Recipe[] = [
+export const recipes: IRecipe[] = [
     {
         name: "Spaghetti Carbonara",
         instructions: "Cuire les pâtes. Dans une poêle, faire revenir les lardons. Mélanger les œufs et le parmesan. Ajouter les pâtes et le mélange œufs-parmesan aux lardons. Servir chaud.",
@@ -83,5 +83,3 @@ export const recipes: Recipe[] = [
         category: "Desserts"
     }
 ];
-
-export default recipes;

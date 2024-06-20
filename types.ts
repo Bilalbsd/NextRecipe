@@ -1,4 +1,4 @@
-export interface Recipe {
+export interface IRecipe {
     name: string;
     instructions: string;
     ingredients: string[];
@@ -9,4 +9,7 @@ export interface Recipe {
 
 export type Category = 'Pâtes' | 'Volaille' | 'Salades' | 'Soupes' | 'Desserts' | 'Végétarien' | 'Poisson' | 'Vegan' | 'Sans gluten' | 'Entrées';
 
-export default Recipe;
+export interface IRecipeReduced {
+    value: string,
+    label: string,
+}
